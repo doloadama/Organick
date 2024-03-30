@@ -64,7 +64,7 @@ body {
 .banniere{
     width: 100%;
     height: 100%;
-    background-image: url("Images1/Group 18.png");
+    background-image: url("../Images1/Group 18.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,7 +101,7 @@ body {
     width: 17vw;
     transition: all 0.3s ease;
     height: 17vh;
-    background-image: url("Images1/Button.png");
+    background-image: url("../Images1/Button.png");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -127,7 +127,7 @@ body {
     border-radius: 15px;
     width: 40vw;
     height: 40vh;
-    background-image: url("Images1/Image.jpg");
+    background-image: url("../Images1/Image.jpg");
     background-size: cover;
     margin-right: 10px;
     justify-content: start;
@@ -137,7 +137,7 @@ body {
     border-radius: 15px;
     width: 40vw;
     height: 367;
-    background-image: url("Images1/Image (1).png");
+    background-image: url("../Images1/Image (1).png");
     background-size: cover;
     margin-left: 10px;
     justify-content: start;
@@ -245,7 +245,7 @@ body {
     width: 15vw;
     transition: all 0.3s ease;
     height: 11vh;
-    background-image: url("Images1/Button (1).png");
+    background-image: url("../Images1/Button (1).png");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -268,14 +268,14 @@ body {
 .image-gauche-ligne4{
     flex: 1;
     height: 100vh;
-    background-image:url("Images1/Photo (5).png") ;
+    background-image:url("../Images1/Photo (5).png") ;
     background-size: cover;
 }
 
 .image-droite-ligne4{
     flex: 1;
     height: 100vh;
-    background-image:url("Images1/Photo (6).png") ;
+    background-image:url("../Images1/Photo (6).png") ;
     background-size: cover;
 
 }
@@ -287,7 +287,7 @@ body {
     height: 100%;
     justify-content: space-around;
     background-color: white;
-    border-image-source: url("Images1/Line.png");
+    border-image-source: url("../Images1/Line.png");
     border-bottom: solid;
 }
 
@@ -380,7 +380,7 @@ body {
     width: 100%;
     height: 70vh;
     margin-top: 100px;
-    background-image: url("Images1/Photo-4.jpg");
+    background-image: url("../Images1/Photo-4.jpg");
     background-size: 50% 100%;
     background-repeat: no-repeat;
     padding-top: 10vh;
@@ -444,21 +444,21 @@ body {
 .boite1-ligne6{
     width: 30%;
     height: 50vh;
-    background-image: url("Images1/1.png");
+    background-image: url("../Images1/1.png");
     background-position: center;
 }
 
 .boite2-ligne6{
     width: 30%;
     height: 50vh;
-    background-image: url("Images1/2.png");
+    background-image: url("../Images1/2.png");
     background-position: center;
 }
 
 .boite3-ligne6{
     width: 30%;
     height: 50vh;
-    background-image: url("Images1/3.png");
+    background-image: url("../Images1/3.png");
     background-position: center;
 }
 
@@ -473,7 +473,7 @@ body {
       display: flex;
       width: 80%;
       height: 35vh;
-      background-image: url("Images1/Photo-20.jpg");
+      background-image: url("../Images1/Photo-20.jpg");
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -611,7 +611,7 @@ input:focus {
     padding:5px ;
     background-clip: content-box;
     margin: auto;
-    background-image: url("Images1/Insta.png");
+    background-image: url("../Images1/Insta.png");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -628,7 +628,7 @@ input:focus {
     padding:5px ;
     background-clip: content-box;
     margin: auto;
-    background-image: url("Images1/Fb.png");
+    background-image: url("../Images1/Fb.png");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -645,7 +645,7 @@ input:focus {
     padding:5px ;
     background-clip: content-box;
     margin: auto;
-    background-image: url("Images1/Twiter.png");
+    background-image: url("../Images1/Twiter.png");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -662,7 +662,7 @@ input:focus {
     padding:5px ;
     background-clip: content-box;
     margin: auto;
-    background-image: url("Images1/Pintrest.png");
+    background-image: url("../Images1/Pintrest.png");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -682,7 +682,7 @@ input:focus {
       padding-top: 5vh;
       font-size: 1rem;
       margin-bottom: 5vh;
-      border-image: url("Images1/Line.png") 20 round;
+      border-image: url("../Images1/Line.png") 20 round;
       border-top: #B4A42C solid;
 }
 
