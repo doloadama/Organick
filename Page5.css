@@ -1,3 +1,12 @@
+
+@font-face {
+    font-family: 'Nom de votre police';
+    src: url('Roboto-Black.ttf') format('truetype');
+    src: url('Yellowtail-Regular.ttf') format('truetype');
+    src: url("OpenSans-VariableFont_wdth,wght.ttf") format('truetype');
+    /* Ajoutez d'autres formats de police au besoin */
+}
+
 .ligne1P5 {
     height: 100vh;
     background-image: url("Images6/Image.png");
@@ -11,12 +20,14 @@
 }
 
 .erreur {
+    font-family: Roboto, serif;
     font-weight: 800;
     font-size: 40vh;
     color: #8FA8A8;
 }
 
 .page {
+    font-family: Roboto, serif;
     font-weight: 700;
     font-size: 10vh;
     color: #274C5B;
