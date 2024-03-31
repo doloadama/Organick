@@ -44,7 +44,7 @@
 
 .titre-ligne2P4 {
     color: #274C5B;
-    font-size: xxx-large;
+    font-size: xx-large;
     font-weight: 700;
     line-height: 0;
 }
@@ -246,8 +246,71 @@
 .localisation {
     font-weight: 600;
     font-size: larger;
-    color: #274C5B;
 }
 
 .zone{
 }
+
+/*====================================================LIGNE4================================*/
+
+.ligne4P4{
+    display: block;
+    height: 80vh;
+    padding: 10vh 30vh;
+}
+
+.input-group{
+    margin-bottom: 5vh;
+    flex: 1;
+}
+
+label {
+    display: block;
+    margin-bottom: 2vh;
+    color: #274C5B;
+    font-size: 2vh;
+    font-weight: 600;
+}
+
+.new-textarea{
+    width: 90%;
+    height: 7vh;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    color: lightgrey;
+    font-style: italic;
+}
+
+.custom-textarea{
+    width: 95%;
+    height: 25vh;
+    font-size: 16px;
+    border-radius: 20px;
+    color: lightgrey;
+    font-style: italic;
+
+}
+
+button{
+    height: 10vh;
+    width: 25vh;
+    padding: 10px 20px;
+    background-color: #274C5B;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 5vh;
+    font-size: 2vh;
+    font-weight: 500;
+}
+
+.write-zone{
+    display: flex;
+}
+
+
+
+
+
