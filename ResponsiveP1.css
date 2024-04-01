@@ -63,7 +63,6 @@
         display: block;
         width: 30vw;
         height: auto;
-        margin-top: 15vh;
         margin-left: 14vw;
         justify-content: left;
         float: left;
@@ -137,7 +136,7 @@
 .texte2g-ligne2{
     font-style: normal;
     color: white;
-    font-size: 2vw;
+    font-size: 1vw;
 }
 
 .texte1d-ligne2{
@@ -149,7 +148,7 @@
 .texte2d-ligne2{
     font-style: normal;
     color: #274C5B;
-    font-size: 2vw;
+    font-size: 1vw;
 }
 }
 
@@ -207,6 +206,7 @@
             align-content: start;
             gap: 0.5vw;
             font-weight: 500;
+            border: black solid;
 
         }
 
@@ -216,7 +216,7 @@
 
         .texte1-alignement-ligne3{
             color: black;
-            font-size: 5vw;
+            font-size: 2vw;
         }
 
         .texte2-alignement-ligne3{
@@ -231,9 +231,9 @@
             border-radius: 5px;
             width: 10vw;
             transition: all 0.3s ease;
-            height: 5vh;
+            height: 3vh;
             background-image: url("Images1/Button (1).png");
-            background-size: cover;
+            background-size: contain;
             background-repeat: no-repeat;
 
         .bouton-text-ligne3-text {

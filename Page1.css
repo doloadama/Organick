@@ -87,7 +87,7 @@ body {
     display: block;
     width: 30vw;
     height: auto;
-    margin-top: 30vh;
+    margin-top: 5vh;
     margin-left: 14vw;
     justify-content: left;
     float: left;
@@ -433,7 +433,7 @@ body {
     font-family: 'yellowtail',sans-serif;
     font-size-adjust: auto;
     text-align: left;
-    font-size: x-large;
+    font-size: large;
 }
 
 .texte4-ligne5{
@@ -441,7 +441,7 @@ body {
     font-family: 'Roboto',sans-serif;
     font-size-adjust: auto;
     text-align: left;
-    font-size: xx-large;
+    font-size: xlarge;
     line-height: 1vh;
 }
 
