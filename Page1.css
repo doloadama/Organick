@@ -87,7 +87,7 @@ body {
     display: block;
     width: 30vw;
     height: auto;
-    margin-top: 5vh;
+    margin-top: 20vh;
     margin-left: 14vw;
     justify-content: left;
     float: left;
@@ -96,33 +96,32 @@ body {
 .texte1-ligne1{
     font-family:'yellowtail',sans-serif;
     color: #68A47F;
-    font-size: x-large;
+    font-size: 5vh;
 }
 
 .texte2-ligne1{
     font-family: 'Roboto', monospace;
     font-style: normal;
     color: #274C5B;
-    font-size: 4vw;
+    font-size: 6vw;
 }
 
-.button {
-    height: 7vh;
-    width: 35vh;
-    padding: 15px 2px ;
+.boutonP1 {
+    display: flex;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 16px;
+    padding-top: 20px;
+    gap: 1vw;
     background-color: #B4A42C;
-    background-size: contain;
-    background-position: right;
-    background-repeat: no-repeat;
+    justify-content: center;
+    }
+
+.texte-boutonP1-ligne2P2 {
+    font-size: large;
     color: white;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    margin-top: 3vh;
-    font-size: 3vh;
-    font-weight: 500;
-    text-align: center;
-}
+    font-weight: 800;
+    }
 
 
 
@@ -249,26 +248,23 @@ body {
     color: #274C5B;
 }
 
-.bouton-image-ligne3{
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
-    width: 15vw;
-    transition: all 0.3s ease;
-    height: 11vh;
-    background-image: url("Images1/Button (1).png");
-    background-size: cover;
-    background-repeat: no-repeat;
-
-.bouton-text-ligne3-text {
-      display: block;
-      text-align: center;
-      line-height: 20px;
+.boutonP1-bis {
+    display: flex;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 16px;
+    padding-top: 20px;
+    gap: 1vw;
+    background-color: #274C5B;
+    justify-content: center;
+    color: #ECECEC;
     }
-}
 
+.texte-boutonP1-bis-ligne2P2 {
+    font-size: large;
+    color: white;
+    font-weight: 800;
+    }
 /*=========================================LiGNE4=============================================*/
 
 .ligne4{
