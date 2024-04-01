@@ -107,11 +107,10 @@ body {
 }
 
 .button {
-    height: 10vh;
-    width: 50vh;
-    padding: 0 2px 0 5px;
+    height: 7vh;
+    width: 35vh;
+    padding: 15px 2px ;
     background-color: #B4A42C;
-    background-image: url("Images1/Aerrow.png");
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
@@ -120,7 +119,7 @@ body {
     border-radius: 15px;
     cursor: pointer;
     margin-top: 3vh;
-    font-size: 5vh;
+    font-size: 3vh;
     font-weight: 500;
     text-align: center;
 }
