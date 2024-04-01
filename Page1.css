@@ -1,18 +1,22 @@
 @font-face {
-    font-family: 'Nom de votre police';
+    font-family: 'Roboto';
     src: url('Roboto-Black.ttf') format('truetype');
-    src: url('Yellowtail-Regular.ttf') format('truetype');
-    src: url("OpenSans-VariableFont_wdth,wght.ttf") format('truetype');
-    /* Ajoutez d'autres formats de police au besoin */
 }
 
+@font-face {
+    font-family: 'yellowtail';
+    src: url('Yellowtail-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url("OpenSans-VariableFont_wdth,wght.ttf") format('truetype');
+}
 body {
-    font-family: Roboto-Black, serif;
 }
 
 .conteneur-principal{
     display: block;
-    font-family: Roboto, serif;
+    font-family: Roboto, monospace;
     flex-wrap: wrap;
 }
 
@@ -54,8 +58,9 @@ body {
     font-size: 40px;
     color: #274C5B;
     margin-top: auto;
+    font-weight: 600;
     margin-bottom: auto;
-    font-family: Roboto sans-serif;
+    font-family: 'Roboto' sans-serif;
 }
 
 
@@ -89,12 +94,13 @@ body {
 }
 
 .texte1-ligne1{
-    font-style: italic;
+    font-family:'yellowtail',sans-serif;
     color: #68A47F;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .texte2-ligne1{
+    font-family: 'Roboto', monospace;
     font-style: normal;
     color: #274C5B;
     font-size: 4vw;
@@ -161,25 +167,25 @@ body {
 }
 
 .texte1g-ligne2{
-    font-style: italic;
+    font-family: 'yellowtail',sans-serif;
     color: white;
     font-size: xx-large;
 }
 
 .texte2g-ligne2{
-    font-style: normal;
+    font-family: 'OpenSans',sans-serif;
     color: white;
     font-size: 3vw;
 }
 
 .texte1d-ligne2{
-    font-style: italic;
+    font-family: 'yellowtail',sans-serif;
     color: #68A47F;
     font-size: xx-large;
 }
 
 .texte2d-ligne2{
-    font-style: normal;
+    font-family: 'OpenSans',sans-serif;
     color: #274C5B;
     font-size: 3vw;
 }
@@ -208,15 +214,15 @@ body {
 }
 
 .texte1-ligne3{
-    font-style: italic;
+    font-family: 'yellowtail',sans-serif;
     color: #7FC884;
     font-size: xxx-large;
 }
 
 .texte2-ligne3{
     color: #274C5B;
-    font-size: 5vw;
-    font-family: Roboto sans-serif;
+    font-size: 3vw;
+    font-family: 'Roboto',monospace;
 }
 
 .texte3-ligne3{
@@ -301,7 +307,7 @@ body {
 
 .texte1-ligne4{
     color: #7FC884;
-    font-style: italic;
+    font-family: 'yellowtail',sans-serif;
     font-size-adjust: auto;
     text-align: center;
     font-size: xx-large;
@@ -309,7 +315,7 @@ body {
 
 .texte2-ligne4{
     color: #274C5B;
-    font-style: normal;
+    font-family: 'Roboto',monospace;
     font-size-adjust: auto;
     text-align: center;
     font-size: xxx-large;
@@ -321,7 +327,7 @@ body {
 
 .texte3-ligne4{
     color: #274C5B;
-    font-style: normal;
+    font-family: 'OpenSans', sans-serif;
     font-size-adjust: auto;
     text-align: center;
 }
@@ -410,30 +416,32 @@ body {
 
 .texte1-ligne5{
     color: #7FC884;
+    font-family: 'Roboto', sans-serif;
     font-size-adjust: auto;
     text-align: left;
     font-size: x-large;
     }
 
 .texte2-ligne5{
+    font-family: 'OpenSans', sans-serif;
     color: #274C5B;
     text-align: left;
 }
 
 .texte3-ligne5{
     color: #7FC884;
-    font-style: italic;
+    font-family: 'yellowtail',sans-serif;
     font-size-adjust: auto;
     text-align: left;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .texte4-ligne5{
     color: #274C5B;
-    font-style: normal;
+    font-family: 'Roboto',sans-serif;
     font-size-adjust: auto;
     text-align: left;
-    font-size: xxx-large;
+    font-size: xx-large;
     line-height: 1vh;
 }
 
@@ -593,9 +601,9 @@ input:focus {
 }
 .texte1-droite-footer {
     padding-top: 2vh;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: xx-large;
-    font-weight: bold;
+    font-weight: 500;
     color: #333;
 }
 
