@@ -88,14 +88,14 @@
         .bloc-bas-ligne3P2 {
             display: flex;
             justify-content: center;
-            gap: 0px;
-            height: 25%;
+            gap: 0;
+            height: 20%;
         }
 
         .cadre-icone-ligne3P2 {
             display: flex;
             flex-direction: column;
-            gap: 0vh;
+            gap: 0;
             border-radius: 20px;
             height: 80%;
             width: 25vh;
@@ -110,14 +110,14 @@
             .bloc-bas-ligne3P2 {
                 display: flex;
                 justify-content: center;
-                gap: 0px;
+                gap: 0;
                 height: 25%;
             }
 
             .cadre-icone-ligne3P2 {
                 display: flex;
                 flex-direction: column;
-                gap: 0vh;
+                gap: 0;
                 border-radius: 20px;
                 height: 80%;
                 width: 25vh;
@@ -144,7 +144,7 @@
 
 
     /*======================================Ligne5==============================*/
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 768px) {
         .Produits {
             display: flex;
             flex-wrap: wrap;
@@ -158,16 +158,16 @@
 
         .Epices {
             border-radius: 20px;
-            width: 10vh;
-            height: 30vh;
+            width: 5vh;
+            height: 5vh;
             background-position: center;
             background-image: url("Images2/7.png");
         }
 
         .Noix {
             border-radius: 20px;
-            width: 10vh;
-            height: 30vh;
+            width: 5vh;
+            height: 5vh;
             background-position: center;
             background-image: url("Images2/8.png");
         }

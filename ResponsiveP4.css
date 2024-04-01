@@ -19,6 +19,95 @@
   }
 }
 
+@media screen and (max-width: 768px) { /* Pour les tablettes */
+    .titre-ligne1P4 {
+        font-size: 35px;
+        line-height: 41px;
+        padding: 75px 100px;
+    }
+    .titre-ligne2P4 {
+        font-size: large;
+    }
+    .texte-ligne2P4 {
+        font-size: medium;
+    }
+    .box {
+        height: 6vh;
+        width: 17.5%;
+        font-size: 1.5vh;
+    }
+    .icone1P4, .icone2P4 {
+        height: 5vh;
+        width: 5vh;
+    }
+    .gras {
+        font-size: 1.5vh;
+    }
+    .petit {
+        font-size: small;
+    }
+    .bloc-icone-ligne2P4{
+        width: 15vw;
+        height: 5vh;
+    }
+}
+
+@media screen and (max-width: 480px) { /* Pour les téléphones */
+    .titre-ligne1P4 {
+        font-size: 30px;
+        line-height: 20.5px;
+        padding: 37.5px 50px;
+    }
+    .titre-ligne2P4 {
+        font-size: 4px;
+    }
+    .texte-ligne2P4 {
+        font-size: 4px;
+    }
+    .box {
+        height: 3vh;
+        width: 8.75%;
+        font-size: 0.75vh;
+    }
+    .icone1P4, .icone2P4 {
+        height: 2.5vh;
+        width: 2.5vh;
+    }
+    .gras {
+        font-size: 0.75vh;
+    }
+    .petit {
+        font-size: x-small;
+    }
+    .bloc-icone-ligne2P4{
+        width: 7.5vw;
+        height: 2.5vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*=====================Foot===================*/
 
 @media screen and (max-width: 600px){

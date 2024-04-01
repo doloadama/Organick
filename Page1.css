@@ -1,5 +1,13 @@
+@font-face {
+    font-family: 'Nom de votre police';
+    src: url('Roboto-Black.ttf') format('truetype');
+    src: url('Yellowtail-Regular.ttf') format('truetype');
+    src: url("OpenSans-VariableFont_wdth,wght.ttf") format('truetype');
+    /* Ajoutez d'autres formats de police au besoin */
+}
+
 body {
-  font-family: Arial, sans-serif;
+    font-family: Roboto-Black, serif;
 }
 
 .conteneur-principal{
@@ -92,25 +100,25 @@ body {
     font-size: 4vw;
 }
 
-.bouton-image-ligne1{
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
-    width: 17vw;
-    transition: all 0.3s ease;
-    height: 17vh;
-    background-image: url("Images1/Button.png");
-    background-size: cover;
+.button {
+    height: 10vh;
+    width: 50vh;
+    padding: 0 2px 0 5px;
+    background-color: #B4A42C;
+    background-image: url("Images1/Aerrow.png");
+    background-size: contain;
+    background-position: right;
     background-repeat: no-repeat;
-
-.bouton-text-ligne1-text {
-      display: block;
-      text-align: center;
-      line-height: 20px;
-    }
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 3vh;
+    font-size: 5vh;
+    font-weight: 500;
+    text-align: center;
 }
+
 
 
 /*==============================================================Ligne2==========================================================*/
