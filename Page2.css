@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'yellowtail';
+    src: url('Yellowtail-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url("OpenSans-VariableFont_wdth,wght.ttf") format('truetype');
+}
+
 /*=====================================================LIGNE1=========================================================*/
 
 .ligne1P2{
@@ -10,6 +24,7 @@
 }
 
 .titre-ligne1{
+    font-family: 'Roboto', sans-serif;
     font-size: 70px;
     line-height: 82,03px;
     font-weight: 800;
@@ -45,21 +60,21 @@
     }
 
 .italic-titreP2 {
-    font-style: italic;
+    font-family: 'yellowtail', sans-serif;
     color: #7FC884;
     font-size: xx-large;
     }
 
 .grand-titreP2 {
     flex-wrap: wrap;
-    font-size: xxx-large;
+    font-size: xx-large;
     color: #274C5B;
     font-weight: 800;
     line-height: 0;
     }
 
 .texteP2 {
-    font-size: large;
+    font-size: medium;
     }
 
 .bloc-iconeP2 {

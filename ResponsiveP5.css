@@ -1,63 +1,52 @@
-/*=====================HEADER===================*/
-@media screen and (max-width: 600px){
-    .en-tete {
-    flex-direction: column;
-    }
+@media screen and (min-width: 300px) and (max-width: 900px){
 
-  .logo {
-    font-size: 10px;
-    color: #000;
-  }
-
-  .menu {
-    flex-direction: column;
-    display: none;
-  }
-
-  .menu a {
-    margin-bottom: 10px;
-  }
+.ligne1P5 {
+    height: 100vh;
+    background-image: url("Images6/Image.png");
+    margin-top: 10vh;
+    padding-left: 15vh;
 }
 
+.bloc-texte-ligne1P5 {
+    float: right;
+    margin-top: 15vh;
 
-
-
-
-
-
-
-@media screen and (max-width: 768px) { /* Pour les tablettes */
-    .erreur {
-        font-size: 20vh;
-    }
-    .page {
-        font-size: 5vh;
-    }
-    .existance {
-        font-size: 1.5vh;
-    }
-    .button {
-        height: 5vh;
-        width: 25vh;
-        font-size: 2.5vh;
-    }
 }
 
-@media screen and (max-width: 480px) { /* Pour les téléphones */
-    .erreur {
-        font-size: 10vh;
-    }
-    .page {
-        font-size: 2.5vh;
-    }
-    .existance {
-        font-size: 1vh;
-    }
-    .button {
-        height: 2.5vh;
-        width: 12.5vh;
-        font-size: 1.25vh;
-    }
+.erreur {
+    font-family: 'Roboto', serif;
+    font-weight: 800;
+    font-size: 40vh;
+    color: #8FA8A8;
+}
+
+.page {
+    font-family: 'OpenSans', serif;
+    font-weight: 700;
+    font-size: 10vh;
+    color: #274C5B;
+}
+
+.existance {
+    font-weight: 500;
+    font-size: 3vh;
+    color: #525C60;
+}
+
+.button {
+    height: 10vh;
+    width: 50vh;
+    padding: 15px 20px;
+    background-color: #274C5B;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 3vh;
+    font-size: 5vh;
+    font-weight: 500;
+    text-align: center;
+}
 }
 
 
@@ -72,74 +61,3 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*=====================Foot===================*/
-
-@media screen and (max-width: 600px){
-    .texte-image-ligne7 {
-        width: 40%;
-        display: block;
-        font-size: xx-large;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        font-weight: bolder;
-    }
-
-
-
-}
-
-/*=====================Footer===================*/
-
-@media screen and (max-width: 600px){
-
-.texte1-droite-footer {
-    font-size: large;
-
-}
-
-.texte2-droite-footer {
-    font-size: xx-large;
-}
-
-.cercle-footer-Insta {
-    width: 3vw;
-    height: 4vh;
-}
-
-.cercle-footer-Fb {
-    width: 3vw;
-    height: 4vh;
-}
-
-.cercle-footer-Twitter {
-    width: 3vw;
-    height: 4vh;
-}
-
-.cercle-footer-Pinterest {
-    width: 3vw;
-    height: 4vh;
-}
-
-.bloc-icone-droite-footer{
-    display: flex;
-    width: 30vw;
-    height: 20vh;
-    justify-content: center;
-    gap: 1rem;
-    padding-top: 5vh;
-}
-
-}
