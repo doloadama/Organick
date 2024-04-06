@@ -150,7 +150,7 @@
 .bloc2-ligne2 {
     border-radius: 15px;
     width: 40vw;
-    height: 367px;
+    height: 40vh;
     background-image: url("Images1/Image (1).png");
     background-size: cover;
     margin-left: 10px;
@@ -171,25 +171,25 @@
 .texte1g-ligne2 {
     font-family: 'yellowtail', sans-serif;
     color: white;
-    font-size: 3.5vh; /* Adjusted font size for better readability */
+    font-size: 3.5vh;
 }
 
 .texte2g-ligne2 {
     font-family: 'OpenSans', sans-serif;
     color: white;
-    font-size: 2vw; /* Adjusted font size for better readability */
+    font-size: 2vw;
 }
 
 .texte1d-ligne2 {
     font-family: 'yellowtail', sans-serif;
     color: #68A47F;
-    font-size: 3.5vh; /* Adjusted font size for better readability */
+    font-size: 3.5vh;
 }
 
 .texte2d-ligne2 {
     font-family: 'OpenSans', sans-serif;
     color: #274C5B;
-    font-size: 2vw; /* Adjusted font size for better readability */
+    font-size: 2vw;
 }
 
 
