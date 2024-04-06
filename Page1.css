@@ -11,32 +11,29 @@
     font-family: 'OpenSans';
     src: url("OpenSans-VariableFont_wdth,wght.ttf") format('truetype');
 }
-body {
-}
 
-.conteneur-principal{
-    display: block;
-    font-family: Roboto, monospace;
-    flex-wrap: wrap;
+.conteneur-principal {
+  display: flex; /* Change to flex for better responsiveness */
+  flex-wrap: wrap;
+  font-family: 'Roboto', monospace;
 }
 
 /*Barre de Menu*/
-.en-tete{
-    display: flex;
-    width: 80%;
-    height: auto;
-    margin: auto;
-    padding-top: 5vh;
+.en-tete {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding-top: 5vh;
 }
 
 .Menu {
-    display: flex;
-    flex: 1;
-    text-align: center;
-    justify-content: space-around;
-    padding: 17px 17px;
-    font-size: 1vw;
-    color: #274C5B;
+  display: flex;
+  flex: 1;
+  text-align: center;
+  justify-content: space-around;
+  padding: 17px 17px;
+  font-size: 1.5vw; /* Adjusted font size for better readability */
+  color: #274C5B;
 }
 
 .menu a {
@@ -45,23 +42,23 @@ body {
   color: #000;
 }
 
-
-.logo{
-    flex: 2;
-    display: flex;
-    margin: auto;
-    justify-content: normal;
-    gap: 0.5vw;
+.logo {
+  flex: 2;
+  display: flex;
+  margin: auto;
+  justify-content: normal;
+  gap: 0.5vw;
 }
 
-.nom{
-    font-size: 40px;
-    color: #274C5B;
-    margin-top: auto;
-    font-weight: 600;
-    margin-bottom: auto;
-    font-family: 'Roboto' sans-serif;
+.nom {
+  font-size: 40px;
+  color: #274C5B;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif; /* Corrected font family syntax */
+  margin-top: auto;
+  margin-bottom: auto;
 }
+
 
 
 /*=======================================Ligne1=======================================*/
