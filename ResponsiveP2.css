@@ -91,107 +91,109 @@
     }
 
     /*===================Ligne3=======================*/
-    @media screen and (max-width: 768px) {
-        .ligne3P2 {
-            display: flex;
-            width: 100%;
-            height: 150vh;
-            flex-direction: column;
-            background: #F9F8F8;
-        }
+    .ligne3P2 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  background: #F9F8F8;
+}
 
-            .bloc-haut-ligne3P2 {
-                margin-top: 10vh;
-                height: 50%;
-                display: flex;
-                justify-content: center;
-            }
+.bloc-haut-ligne3P2 {
+  margin-top: 10vh;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
 
-            .gauche-Ligne3P2 {
-                display: flex;
-                flex-direction: column;
-                width: 40%;
-                gap: 2vh;
-            }
+.gauche-Ligne3P2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2vh;
+}
 
-            .cadre-ligne3P2 {
-                display: flex;
-                width: 30vh;
-                height: 5vh;
-                background-color: #ECECEC;
-                padding-top: 2vh;
-                border-radius: 10px;
-                gap: 1vh;
-            }
+.cadre-ligne3P2 {
+  display: flex;
+  width: 100%;
+  height: 5vh;
+  background-color: #ECECEC;
+  padding-top: 2vh;
+  border-radius: 10px;
+  gap: 1vh;
+}
 
-            .cercle-Ligne3P2{
-                height: 1vh;
-                width: 1vh;
-                border-radius: 50%;
-                border: #7FC884 solid;
-            }
+.cercle-Ligne3P2 {
+  height: 1vh;
+  width: 1vh;
+  border-radius: 50%;
+  border: #7FC884 solid;
+}
 
-            .texte-cadre {
-            }
+.texte-cadre {
+}
 
+.droite-Ligne3P2 {
+  background-image: url("Images2/3.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
 
+.bloc-bas-ligne3P2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 5vh;
+  height: 25%;
+}
 
-        .bloc-bas-ligne3P2 {
-            display: flex;
-            justify-content: center;
-            height: 50%;
-            border: salmon solid;
-        }
+.cadre-icone-ligne3P2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  border-radius: 20px;
+  height: 80%;
+  width: 40%;
+  background-color: white;
+  justify-content: center;
+  text-align: center;
+}
 
-        .cadre-icone-ligne3P2 {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1vh;
-            border-radius: 20px;
-            height: 10vh;
-            width: 10vh;
-            background-color: white;
-            justify-content: center;
-            text-align: center;
-            border: black solid;
-        }
+.icone1-Ligne3 {
+  height: 10vh;
+  background-image: url("Images2/Icone(1).png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-        .icone1-Ligne3 {
-            height: 1vh;
-            background-image: url("Images2/Icone(1).png");
-            background-position: center;
-            background-size: contain;
-            border: #274C5B solid;
-            background-repeat: no-repeat;
-        }
+.icone2-Ligne3 {
+  height: 10vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("Images2/Icone(2).svg");
+}
 
-        .icone2-Ligne3 {
-            height: 1vh;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-image: url("Images2/Icone(2).svg");
-        }
+.icone3-Ligne3 {
+  height: 10vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("Images2/Icone(3).svg");
+}
 
-        .icone3-Ligne3 {
-            height: 1vh;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: contain;
-            background-image: url("Images2/Icone(3).svg");
-        }
+.icone4-Ligne3 {
+  height: 10vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("Images2/Icone (4).svg");
+}
 
-        .icone4-Ligne3 {
-            height: 5vh;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-image: url("Images2/Icone (4).svg");
-        }
+.texte-icone-ligne3P2 {
+  font-weight: 600;
+  font-size: 2vh;
+}
 
-        .texte-icone-ligne3P2 {
-            font-weight: 300;
-            font-size: 0.6vh;
-        }
-    }
 
 
     /*==========================================================LIGNE4==================================================================*/
